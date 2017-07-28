@@ -10,9 +10,9 @@ transfer the images to the system buffers. The program in its current default mo
 * The number of buffers, number of images per buffer, region of interest, acquisition frame rate and exposure time 
 settings can be directly changed from within the program; highlighted in the begining (see somments w/ code).
 
-* The program also prints a realtime frame rate in fps, and frame number and camera time stamp of each image.
+* The program also prints a realtime camera frame rate and system acquisition frame rate in fps, along with number of each system acquired frame with its camera timestamp.
 
-* All parameters are stored in a csv file and saved to disk in the following order: 
+* All parameters are stored in a csv file and saved to disk in the following order:  CameraTime, SystemTime, CameraFrameNumber, CameraFrameRate, AcquisitionFrameRate, ROIx X ROIy.
 
 * ^Images can be saved to disk. This uses EmguCV (openCv wrapper for c#).
 
