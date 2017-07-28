@@ -1,7 +1,7 @@
 # MikroBirdDrishti v2.10
 
 MikroBird Drishti a high-speed image acquisition program written on C# which combines a MIKROTRON MC4082 camera 
-with an FIREBIRD frame grabber board of Active Silicon. Drishti is a Sanskrit term for vision.
+with a FIREBIRD frame grabber board of Active Silicon. Drishti is a Sanskrit term for vision.
 
 This program  uses a direct memory buffering wherein physical addresses in the system memory are locked 
 by the gramegrabber board prior to acquisition and the grabber board uses vitual addressing to directly
