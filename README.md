@@ -13,7 +13,7 @@ settings can be directly changed from within the program; highlighted in the beg
 
 * All parameters are stored in a csv file and saved to disk in the following order:  CameraTime, SystemTime, CameraFrameNumber, CameraFrameRate, AcquisitionFrameRate, ROIx X ROIy.
 
-* ^Images can be saved to disk. This uses EmguCV (openCv wrapper for c#).
+* ^Images can be saved to disk. This uses EmguCV (openCv wrapper for C#).
 
 * ^Images can be also stiched into a video with the already selected frame rate and saved to disk. This uses ffmpeg library.
 
@@ -23,6 +23,6 @@ This code is adapted from the examples provided with the phoenix software develo
 
 More info: Gokul Rajan (gklrajan@gmaildotcom), DEL-BENE Lab, Paris. 26-07-2017.
 
-Additional notes: This was originally written with Phoenix SDK (v01.04.00) to integrate an Active Silicon FireBird frame grabber board (P/N: MP-FBD-4XCXP6-2PE8) and a Mikrotron camera (MC4082) running on FW V0.27.033F0.38.925
+Additional notes: This was originally written with Phoenix SDK (v01.04.00) to integrate an Active Silicon FireBird frame grabber board (P/N: MP-FBD-4XCXP6-2PE8) and a Mikrotron camera (MC4082) running on FW V0.27.033F0.38.925.
 
 to do: add writing to linkspeed cam register. currently throws a device not ready error.
