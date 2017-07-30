@@ -26,3 +26,6 @@ This code is adapted from the examples provided with the phoenix software develo
 More info: Gokul Rajan (gklrajan@gmaildotcom), DEL-BENE Lab, Paris. 26-07-2017.
 
 to do: add writing to linkspeed cam register. currently throws a device not ready error.
+
+Additional notes:
+This was originally written with Phoenix SDK (v01.04.00) to integrate an Active Silicon FireBird frame grabber board (P/N: MP-FBD-4XCXP6-2PE8) and a Mikrotron camera (MC4082) running on FW V0.27.033F0.38.925
