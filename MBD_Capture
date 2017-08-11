@@ -214,8 +214,8 @@ namespace phx_live
             ///////////////////////////////////////
 
             /* If you wnt to change the number of acquisition buffers, change here. 
-             * Currently, I don't see a need. Can easily acquire at the frame rate we want (~560Hz) with just 2 buffers*/
-            dwAcqNumBuffers = 20;
+             * Can easily acquire at the frame rate we want (~560Hz) with just 2 buffers*/
+             * Frame loss is least at 20; also works for 949fps @1024x1024px            dwAcqNumBuffers = 20;
 
             //////////////////////////////////////
 
