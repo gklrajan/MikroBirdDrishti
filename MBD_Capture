@@ -108,9 +108,9 @@ namespace phx_live
             uint ROIx = 1024; // Max resolution is 2336x1728px for the MC4082
             uint ROIy = 1024; // lower ROI --> less data --> faster disk writing 
                               // This is not exactly ROI; basically just selecting buffer size, rest of the sent image is not catured in the buffer
-                              // Real camera ROI and ROIOffset lines exist in the code; currently non-functional and not very useful anyhow.
-                               uint OffsetX = 128;
-                               uint OffsetY = 128;
+                              // Real camera ROI and ROIOffset lines exist in the code; currently non-functional.
+            uint OffsetX = 128;
+            uint OffsetY = 128;
             uint CameraFPS = 949; // when writing to disk, this is not very imp as you will be limited by writing speed
             int VideoFPS = 182; // this can change; look at console window calFPS readout to adjust i f required
             uint CameraExp = 1052;
